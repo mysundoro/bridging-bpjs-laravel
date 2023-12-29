@@ -14,9 +14,5 @@
         "psr-4": {
             "MySundoro\\Bpjs\\": "src/"
         }
-    },
-    "require": {
-        "guzzlehttp/guzzle": "~7.2",
-        "nullpunkt/lz-string-php": "dev-master"
     }
 }
