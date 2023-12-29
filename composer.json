@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Resa Agus Sundoro",
+            "name": "Sundoro",
             "email": "mysundoro@gmail.com"
         }
     ],
@@ -16,6 +16,7 @@
         }
     },
     "require": {
-        "guzzlehttp/guzzle": ">=6.0"
+        "guzzlehttp/guzzle": ">=6.0",
+        "nullpunkt/lz-string-php": "dev-master"
     }
 }
