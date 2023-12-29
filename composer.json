@@ -1,22 +1,22 @@
 {
     "name": "mysundoro/bridging-bpjs-laravel",
-    "description": "Package untuk bridging bpjs vclaim, apcare dan pcare",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
+    "description": "Wrapper for BPJS Indonesia Web Service API v3",
+    "type": "package",
     "authors": [
         {
             "name": "Sundoro",
             "email": "mysundoro@gmail.com"
         }
     ],
+    "license": "mit",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "MySundoro\\Bpjs\\": "src/"
         }
     },
     "require": {
-        "guzzlehttp/guzzle": ">=6.0",
+        "guzzlehttp/guzzle": "~6.0",
         "nullpunkt/lz-string-php": "dev-master"
     }
 }
